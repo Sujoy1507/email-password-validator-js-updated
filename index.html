@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Email & Password Validator — Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="card" role="main">
+        <h1>Create an account</h1>
+        <p class="lead">Template HTML & CSS for an email + password validator. Add your JavaScript below to enable live
+            validation.</p>
+
+        <form id="signup-form">
+            <div>
+                <label for="email">Email</label>
+                <div class="field">
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div id="email-msg" class="msg"></div>
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <div class="field">
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <div class="strength">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div id="password-msg" class="msg"></div>
+            </div>
+
+            <div class="actions">
+                <button type="submit">Sign Up</button>
+                <button type="reset" class="secondary">Clear</button>
+            </div>
+        </form>
+
+        <div id="lastMassage">YOU ARE FUCKED UP , BYE BYE 👋</div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
